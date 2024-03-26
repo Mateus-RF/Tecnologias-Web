@@ -23,8 +23,6 @@ table{
 td,tr,th{
     border: 1px solid blue;
     padding:10px 10px;
-    
-    
 }
 th:first-child, td:first-child {
     background-color: yellow;
@@ -48,7 +46,6 @@ td{
     margin: 0;
     flex-direction: column;
     height: 150px;
-    
 }
 .margin{
     margin-left: 10px;
@@ -61,7 +58,6 @@ td{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .padding{
     padding-left: 20px;
@@ -70,13 +66,11 @@ td{
 }
 .height{
     margin-top: 10px;
-    
 }
 .background_color_links{
     display: flex;
     background-color: #094e79;
     flex-direction: column;
-
 }
 .Copr{
     text-align: center;
