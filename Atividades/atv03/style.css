@@ -66,9 +66,7 @@ td{
 .padding{
     padding-left: 20px;
     margin-top: 30px;
-    margin-bottom: 25px;
-    min-height: 120px;
-    
+    min-height: 120px;  
 }
 .height{
     margin-top: 10px;
@@ -77,9 +75,11 @@ td{
 .background_color_links{
     display: flex;
     background-color: #094e79;
-    margin-top: 0;
     flex-direction: column;
 
+}
+.Copr{
+    text-align: center;
 }
 code{
     
@@ -106,4 +106,5 @@ hr{
 a{
     color: yellowgreen;
 }
+
 
