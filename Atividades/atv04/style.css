@@ -39,4 +39,9 @@ h1{
 h2{
     font-family: "Montserrat", sans-serif;
 }
+hr{
+    background-color: black;
+    border-color: black;
+}
+
 
