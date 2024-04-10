@@ -13,6 +13,7 @@ img{
     color: gray;
     font-size: 0.8rem;
     font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .container {
     max-width: 1024px;
