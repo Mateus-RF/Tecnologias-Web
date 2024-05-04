@@ -1,71 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tabela com destaque em CSS</title>
-<style>
-    .table-container {
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabela com destaque em CSS</title>
+    <style>
+      .table-container {
         display: flex;
         justify-content: center;
-    }
-    table {
+      }
+      table {
         border-collapse: collapse;
         width: 100%;
-    }
-    th, td {
+      }
+      th,
+      td {
         border: 1px solid black;
         padding: 8px;
         text-align: left;
-    }
-    th:first-child, td:first-child {
+      }
+      th:first-child,
+      td:first-child {
         background-color: yellow;
-    }
-    tr:nth-child(1), tr:nth-child(4) {
+      }
+      tr:nth-child(1),
+      tr:nth-child(4) {
         background-color: yellow;
-    }
-</style>
-</head>
-<body>
-
-<div class="table-container">
-    <table>
+      }
+    </style>
+  </head>
+  <body>
+    <div class="table-container">
+      <table>
         <thead>
-            <tr>
-                <th>Coluna 1</th>
-                <th>Coluna 2</th>
-                <th>Coluna 3</th>
-                <th>Coluna 4</th>
-            </tr>
+          <tr>
+            <th>Coluna 1</th>
+            <th>Coluna 2</th>
+            <th>Coluna 3</th>
+            <th>Coluna 4</th>
+          </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Dado 1A</td>
-                <td>Dado 1B</td>
-                <td>Dado 1C</td>
-                <td>Dado 1D</td>
-            </tr>
-            <tr>
-                <td>Dado 2A</td>
-                <td>Dado 2B</td>
-                <td>Dado 2C</td>
-                <td>Dado 2D</td>
-            </tr>
-            <tr>
-                <td>Dado 3A</td>
-                <td>Dado 3B</td>
-                <td>Dado 3C</td>
-                <td>Dado 3D</td>
-            </tr>
-            <tr>
-                <td>Dado 4A</td>
-                <td>Dado 4B</td>
-                <td>Dado 4C</td>
-                <td>Dado 4D</td>
-            </tr>
+          <tr>
+            <td>Dado 1A</td>
+            <td>Dado 1B</td>
+            <td>Dado 1C</td>
+            <td>Dado 1D</td>
+          </tr>
+          <tr>
+            <td>Dado 2A</td>
+            <td>Dado 2B</td>
+            <td>Dado 2C</td>
+            <td>Dado 2D</td>
+          </tr>
+          <tr>
+            <td>Dado 3A</td>
+            <td>Dado 3B</td>
+            <td>Dado 3C</td>
+            <td>Dado 3D</td>
+          </tr>
+          <tr>
+            <td>Dado 4A</td>
+            <td>Dado 4B</td>
+            <td>Dado 4C</td>
+            <td>Dado 4D</td>
+          </tr>
         </tbody>
-    </table>
-</div>
-
-</body>
+      </table>
+    </div>
+  </body>
 </html>
