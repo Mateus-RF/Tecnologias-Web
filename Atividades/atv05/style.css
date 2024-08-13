@@ -1,0 +1,51 @@
+body{
+    background-color: #141414;
+}
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 97vh;
+    color: aliceblue;
+    font-family: 'TT Hoves Pro Trial Variable', sans-serif;
+}
+h1{
+    font-size: 3.4rem;
+}
+.Profiles{
+    display: flex;
+    color: gray;
+}
+.Profiles img{
+    max-width: 145px;
+    border-radius: 5%;
+    margin: 25px;
+}
+.Profiles img:hover{
+    border: solid;
+    cursor: pointer;
+}.Profiles img:active{
+    cursor: pointer;
+    max-width: 120px;
+    border: none;
+}
+.descricao{
+    border: solid;
+    padding: 7px 25px 7px 25px;
+    margin-top: 3rem;
+    color: gray;
+    font-weight: 600;
+}
+.descricao:hover{
+    border: gray solid;
+    color: aliceblue;
+    cursor: pointer;
+}
+.descricao:active{
+    cursor: pointer;
+    border: gray solid;
+    background-color: gray;
+    color: #141414;
+}
