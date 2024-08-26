@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <title>Pratica 04</title>
+</head>
+<body>
+     <header id="Header">
+        <h1>Criar Post</h1>
+        <p>Escreva sobre o que quiser e compartilhe seu conhecimento!</p>
+     </header>
+     <form id="conteinerForm">
+        <label class="Campos">
+            <span>Título:</span>
+            <input type="text" placeholder="Pense em um bom titulo...">
+        </label>
+        <label class="Campos">
+            <span>URL da imagem:</span>
+            <input type="text" placeholder="Insira uma imagen que represente seu post...">
+        </label>
+        <label class="Campos">
+            <span>Conteúdo:</span>
+            <textarea cols="40" rows="1" placeholder="Insira o conteúdo do seu post..."></textarea>
+        </label>
+        <label class="Campos">
+            <span>Tags:</span>
+            <input type="text" placeholder="Insira as tags separadas por virgula...">
+        </label>
+        <label class="Campos">
+            <span>Categoria:</span>
+            <select>
+                <option value="" disabled selected hidden>Selecione uma Categoria...</option>
+                <option value="Tecnologia">Tecnologia</option>
+                <option value="Motivacao">Motivação</option>
+                <option value="Educ-Con">Educação e Conhecimento</option>
+                <option value="Entretenimento">Entretenimento</option>
+                <option value="His-Exp">Histórias e Experiências Pessoais</option>
+                <option value="Lista">Listas e Compilações</option>
+                <option value="Opin-Anali">Opinião e Análise</option>
+                <option value="Noticias">Notícias e Atualizações</option>
+                <option value="Tutorial">Tutoriais e Guias</option>
+                <option value="Inovacao">Inovação</option>
+            </select>
+        </label>
+        <button>Criar post</button>
+     </form>
+</body>
+</html>
